@@ -24,9 +24,6 @@ function Header() {
             <a href="#" className="hover:text-blue-500">
               Examples
             </a>
-            <a href="#" className="hover:text-blue-500">
-              Pricing
-            </a>
           </div>
         </div>
 

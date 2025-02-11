@@ -1,5 +1,10 @@
 import containerImg from "./LadingPage/Container.png";
-
-export  const assetsImg = {
+import rocket from "./LadingPage/rocket.webp";
+import aboutContainerImg from "./About/aboutImg.png";
+import ourMissionImg from "./About/OurMission.png";
+export const assetsImg = {
   containerImg,
+  rocket,
+  aboutContainerImg,
+  ourMissionImg,
 };

@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h1 className="text-4xl xl:text-6xl font-semibold text-gray-900">
           Build Faster with Mokshith UI{" "}
           <span role="img" aria-label="rocket">
-            🚀
+            <img src={assetsImg.rocket} alt="rocket" className="inline w-9 xl:w-16" />
           </span>
         </h1>
         <p className="text-gray-600 mt-4 font-normal">
