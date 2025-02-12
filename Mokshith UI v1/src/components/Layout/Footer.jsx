@@ -6,21 +6,25 @@ import {
   FaInfoCircle,
   FaShieldAlt,
   FaFileContract,
+  FaRobot,
 } from "react-icons/fa";
+import { IoIosContacts } from "react-icons/io";
+import { Link } from "react-router";
 
 export default function Footer() {
   return (
     <footer className="bg-gray-50 text-gray-700 py-8 px-6 border-t">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 md:text-left">
         {/* Brand Info */}
         <div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex items-center  md:justify-start space-x-2">
             <h2 className="text-black text-lg font-semibold">
               Mokshith <span className="text-blue-500">UI</span>
             </h2>
           </div>
           <p className="mt-2 text-sm">
-            A modern UI component library for web applications
+            AI-powered UI components for rapid development and seamless
+            customization.
           </p>
         </div>
 
@@ -30,21 +34,21 @@ export default function Footer() {
           <ul className="space-y-1 text-sm">
             <li className="flex items-center space-x-2">
               <FaCubes className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Components
-              </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
               <FaBook className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Documentation
-              </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
               <FaInfoCircle className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/about" className="hover:text-blue-500">
                 About
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,17 +57,35 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-2">Connect</h3>
           <ul className="space-y-1 text-sm">
-            <li className="flex items-center justify-center md:justify-start space-x-2">
-              <FaGithub className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
-                GitHub
-              </a>
+            <li className="flex items-center  md:justify-start space-x-2">
+              <IoIosContacts className="text-gray-700" />
+              <Link to="/contact" className="hover:text-blue-500">
+                contact
+              </Link>
             </li>
-            <li className="flex items-center justify-center md:justify-start space-x-2">
+            <li className="flex items-center  md:justify-start space-x-2">
+              <FaGithub className="text-gray-700" />
+              <Link to="/" className="hover:text-blue-500">
+                GitHub
+              </Link>
+            </li>
+            <li className="flex items-center  md:justify-start space-x-2">
               <FaTwitter className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Twitter
-              </a>
+              </Link>
+            </li>
+          </ul>
+        </div>
+        {/* AI-Powered Feature */}
+        <div>
+          <h3 className="font-semibold mb-2">AI-Powered</h3>
+          <ul className="space-y-1 text-sm">
+            <li className="flex items-center space-x-2">
+              <FaRobot className="text-gray-700" />
+              <Link to="/ai-generator" className="hover:text-blue-500">
+                AI Component Generator
+              </Link>
             </li>
           </ul>
         </div>
@@ -74,15 +96,15 @@ export default function Footer() {
           <ul className="space-y-1 text-sm">
             <li className="flex items-center space-x-2">
               <FaShieldAlt className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
               <FaFileContract className="text-gray-700" />
-              <a href="#" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Terms of Service
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
