@@ -23,7 +23,6 @@ function App() {
       {/* <Home /> */}
       {/* <About /> */}
       {/* <Contact /> */}
-      <StartBuilding />
       <Footer />
     </div>
   );

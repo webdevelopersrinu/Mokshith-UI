@@ -3,8 +3,8 @@ import HeroSection from "../components/LandingPage/HeroSection";
 import HowItWorks from "../components/LandingPage/HowItWorks";
 import PrebuiltComponents from "../components/LandingPage/PrebuiltComponents";
 import Testimonials from "../components/LandingPage/Testimonials";
-import Header from "../components/Layout/Header";
-import Footer from "../components/Layout/Footer";
+
+import StartBuilding from "../components/Layout/StartBuilding";
 
 function Home() {
   return (
@@ -14,6 +14,7 @@ function Home() {
       <PrebuiltComponents />
       <HowItWorks />
       <Testimonials />
+      <StartBuilding />
     </div>
   );
 }
