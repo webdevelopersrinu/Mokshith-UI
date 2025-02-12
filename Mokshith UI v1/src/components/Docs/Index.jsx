@@ -25,7 +25,7 @@ function index() {
       {/* Introduction Section */}
       <section id="introduction" className=" mx-auto   py-6 ">
         {/* Title */}
-        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+        <h2 className="text-2xl font-bold text-gray-800 mb-3">
           📖 Introduction – Mokshith UI
         </h2>
 
@@ -53,7 +53,7 @@ function index() {
 
         {/* Why Mokshith UI Section */}
         <div className="mt-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
             🚀 Why Mokshith UI?
           </h2>
 
@@ -79,7 +79,7 @@ function index() {
 
         {/* Who Can Use Section */}
         <div className="mt-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
             🎯 Who Can Use Mokshith UI?
           </h2>
 
@@ -98,7 +98,7 @@ function index() {
 
         {/* Call to Action */}
         <div className="mt-10 text-center">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
             📢 Get Started with Mokshith UI Today!
           </h2>
           <p className="text-gray-600 text-lg">
@@ -147,7 +147,7 @@ function index() {
         <h2 className="text-2xl font-semibold">Usage Guide</h2>
         {/* Copy-Paste Ready Section */}
         <div className="mt-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
             📋 Copy & Paste Ready
           </h2>
           <p className="text-gray-600 text-lg">
@@ -165,7 +165,7 @@ function index() {
         </div>
         {/* How to Use Section */}
         <div className="mt-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
             📌 How to Use Mokshith UI?
           </h2>
 
@@ -183,7 +183,7 @@ function index() {
             <li>Customize as Needed – Modify styles using Tailwind classes.</li>
           </ol>
         </div>
-        <h2 className="text-xl md:text-2xl font-semibold">Example Component</h2>
+        <h2 className="text-2xl font-semibold">Example Component</h2>
         <div className="my-3 bg-white p-4 rounded-md border border-gray-200">
           <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
             Click me

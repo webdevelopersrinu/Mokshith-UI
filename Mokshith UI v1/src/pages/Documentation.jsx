@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router";
 import CodeBlock from "../components/common/CodeBlock";
 import { useEffect, useState } from "react";
 import Index from "../components/Docs/Index";
+import SideBar from "../components/common/SideBar";
 
 const navItems = [
   {
@@ -69,7 +70,7 @@ export default function Documentation() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-gray-50 text-gray-900">
       {/* Sidebar */}
-      <aside className="hidden md:block md:w-64 h-full sticky top-0 left-0 p-4 md:h-full pt-12">
+      {/* <aside className="hidden md:block md:w-64 h-full sticky top-0 left-0 p-4 md:h-full pt-12">
         <nav className="mt-4">
           <ul>
             {navItems.map((section) => (
@@ -93,7 +94,10 @@ export default function Documentation() {
             ))}
           </ul>
         </nav>
-      </aside>
+      </aside> */}
+      <div className="sticky left-0 top-0">
+        <SideBar />
+      </div>
       <div className="w-full">
         <Index />
       </div>
