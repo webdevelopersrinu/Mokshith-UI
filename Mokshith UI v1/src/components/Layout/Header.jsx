@@ -27,7 +27,7 @@ function Header() {
               Components
             </NavLink>
             <NavLink
-              to={"/documentation"}
+              to={"/docs"}
               className={({ isActive }) =>
                 isActive ? "text-blue-500 font-bold" : ""
               }

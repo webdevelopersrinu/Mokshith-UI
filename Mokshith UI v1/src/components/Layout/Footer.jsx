@@ -18,9 +18,11 @@ export default function Footer() {
         {/* Brand Info */}
         <div>
           <div className="flex items-center  md:justify-start space-x-2">
-            <h2 className="text-black text-lg font-semibold">
-              Mokshith <span className="text-blue-500">UI</span>
-            </h2>
+            <Link to={"/"}>
+              <h2 className="text-black text-lg font-semibold">
+                Mokshith <span className="text-blue-500">UI</span>
+              </h2>
+            </Link>
           </div>
           <p className="mt-2 text-sm">
             AI-powered UI components for rapid development and seamless
@@ -40,7 +42,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center space-x-2">
               <FaBook className="text-gray-700" />
-              <Link to="/" className="hover:text-blue-500">
+              <Link to="/docs" className="hover:text-blue-500">
                 Documentation
               </Link>
             </li>
@@ -60,7 +62,7 @@ export default function Footer() {
             <li className="flex items-center  md:justify-start space-x-2">
               <IoIosContacts className="text-gray-700" />
               <Link to="/contact" className="hover:text-blue-500">
-                contact
+                Contact
               </Link>
             </li>
             <li className="flex items-center  md:justify-start space-x-2">

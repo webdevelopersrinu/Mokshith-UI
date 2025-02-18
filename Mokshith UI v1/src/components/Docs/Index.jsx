@@ -14,7 +14,7 @@ const btnCode = `<button className="bg-blue-600 text-white px-4 py-2 rounded-md 
 </button>`;
 function index() {
   return (
-    <main className="flex-1 p-6 bg-white border border-t-0 border-b-0 border-r-gray-200">
+    <main className="flex-1 pt-16 md:pt-6 p-6 bg-white border border-t-0 border-b-0 border-r-gray-200">
       <h1 className="text-2xl md:text-3xl font-bold">
         Mokshith UI Documentation
       </h1>
@@ -26,7 +26,7 @@ function index() {
       <section id="introduction" className=" mx-auto   py-6 ">
         {/* Title */}
         <h2 className="text-2xl font-bold text-gray-800 mb-3">
-          📖 Introduction – Mokshith UI
+          Introduction – Mokshith UI
         </h2>
 
         {/* Description */}
@@ -54,25 +54,25 @@ function index() {
         {/* Why Mokshith UI Section */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-3">
-            🚀 Why Mokshith UI?
+            Why Mokshith UI?
           </h2>
 
           <ul className="list-none space-y-4 text-gray-700 text-lg">
             <li>
-              ✅ <strong>No Installation Required</strong> – No need for NPM
+              <strong>No Installation Required</strong> – No need for NPM
               packages or extra configurations. Just copy and use!
             </li>
             <li>
-              🎨 <strong>Pre-Styled, Yet Fully Customizable</strong> – Built
-              with Tailwind’s utility-first approach for easy styling.
+              <strong>Pre-Styled, Yet Fully Customizable</strong> – Built with
+              Tailwind’s utility-first approach for easy styling.
             </li>
             <li>
-              ⚡ <strong>Lightweight & Fast</strong> – No extra JavaScript or
+              <strong>Lightweight & Fast</strong> – No extra JavaScript or
               dependencies, keeping your project optimized.
             </li>
             <li>
-              🌍 <strong>Accessible & Responsive</strong> – Designed with a11y
-              best practices and fully mobile-friendly.
+              <strong>Accessible & Responsive</strong> – Designed with a11y best
+              practices and fully mobile-friendly.
             </li>
           </ul>
         </div>
@@ -80,19 +80,19 @@ function index() {
         {/* Who Can Use Section */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-3">
-            🎯 Who Can Use Mokshith UI?
+            Who Can Use Mokshith UI?
           </h2>
 
           <ul className="list-none space-y-3 text-gray-700 text-lg">
             <li>
-              ✅ Developers & Designers – Speed up UI development with AI
+              Developers & Designers – Speed up UI development with AI
               assistance.
             </li>
             <li>
-              ✅ Tailwind CSS Users – Prebuilt components for Tailwind projects.
+              Tailwind CSS Users – Prebuilt components for Tailwind projects.
             </li>
-            <li>✅ Beginners – Learn UI development with Tailwind.</li>
-            <li>✅ Teams & Startups – Scalable UI design system.</li>
+            <li> Beginners – Learn UI development with Tailwind.</li>
+            <li>Teams & Startups – Scalable UI design system.</li>
           </ul>
         </div>
 
@@ -108,18 +108,18 @@ function index() {
           </p>
 
           <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
-            <a
-              href="/components"
+            <Link
+              to="/components"
               className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600"
             >
-              🔗 Browse Components
-            </a>
-            <a
-              href="/docs"
+              Browse Components
+            </Link>
+            <Link
+              to="/docs"
               className="px-6 py-3 border border-gray-600 text-gray-800 font-semibold rounded-lg hover:bg-gray-200"
             >
-              📖 Read Documentation
-            </a>
+              Generate with AI
+            </Link>
           </div>
         </div>
       </section>
@@ -148,7 +148,7 @@ function index() {
         {/* Copy-Paste Ready Section */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-3">
-            📋 Copy & Paste Ready
+            Copy & Paste Ready
           </h2>
           <p className="text-gray-600 text-lg">
             Mokshith UI is built for speed and simplicity. Each component
@@ -166,7 +166,7 @@ function index() {
         {/* How to Use Section */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-3">
-            📌 How to Use Mokshith UI?
+            How to Use Mokshith UI?
           </h2>
 
           <p className="text-gray-600 text-lg">

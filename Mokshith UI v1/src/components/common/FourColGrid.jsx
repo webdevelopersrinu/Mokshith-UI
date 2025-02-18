@@ -1,6 +1,5 @@
 
 function FourColGrid({ title1, title2, gridData }) {
-    console.log(title1)
   return (
     <section className="py-12 px-4 md:px-8 lg:px-16">
       <div className="text-center">
