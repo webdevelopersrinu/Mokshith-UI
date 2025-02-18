@@ -3,7 +3,7 @@ export default function StartBuilding() {
     <section className="bg-gradient-to-r from-[#2563EB] to-[#4F46E5] text-white py-16 px-6 text-center">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-          Start Building with AI-Powered Mokshith UI!
+          Start Building with Mokshith UI!
         </h1>
         <p className="text-lg sm:text-xl mb-6">
           Instantly generate, customize, and deploy stunning UI components with

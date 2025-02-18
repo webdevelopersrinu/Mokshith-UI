@@ -3,7 +3,8 @@ import { IoIosCopy } from "react-icons/io";
 import { toast } from "react-hot-toast"
 
 
-function LightTheme({ preview, code, hover }) {
+
+function DarkTheme({ preview, code, hover }) {
     const handeleCopy = (code) => {
         if (navigator.clipboard) {
             navigator.clipboard.writeText(code);
@@ -14,15 +15,15 @@ function LightTheme({ preview, code, hover }) {
     };
     return (
         <div
-            className="bg-white border relative rounded-xl border-gray-200   "
+            className="bg-gray-900 border relative rounded-xl border-gray-200"
         >
-            <div className=" ">
+            <div className=" my-2">
                 {
-                    hover && <span className="text-sm font-medium cursor-default text-gray-600 lowercase border-gray-200 border-b border-r rounded-br-lg py-2 px-2">Hover Effect ✨</span>
+                    hover && <span className="text-sm font-medium cursor-default text-gray-200 lowercase border-gray-800 bg-gray-800 border-b border-r rounded-tl-lg rounded-br-lg py-2 px-2">Hover Effect ✨</span>
                 }
                 <button
                     onClick={() => handeleCopy(code)}
-                    className="text-gray-600 hover:text-gray-700 absolute right-3 top-3"
+                    className="text-gray-200 hover:text-gray-300 absolute right-3 top-3"
                     title="Copy to clipboard"
                 >
                     <IoIosCopy />
@@ -33,4 +34,4 @@ function LightTheme({ preview, code, hover }) {
     );
 }
 
-export default LightTheme
+export default DarkTheme

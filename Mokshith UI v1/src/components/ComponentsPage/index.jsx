@@ -45,9 +45,9 @@ const Sidebar = () => {
 
 const Index = () => {
     return (
-        <div className="flex h-screen">
+        <div className="flex ">
             <Sidebar />
-            <div className="flex-1  overflow-y-scroll " >
+            <div className="flex-1" >
                 <Outlet />
             </div>
         </div>
