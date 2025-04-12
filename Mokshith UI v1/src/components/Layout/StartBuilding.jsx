@@ -13,9 +13,11 @@ export default function StartBuilding() {
           <button className="bg-white text-blue-600 font-normal py-2 px-6 rounded-lg shadow-md hover:bg-gray-100">
             Generate with AI
           </button>
-          <button className="border border-white text-white font-normal py-2 px-6 rounded-lg hover:bg-white hover:text-blue-600">
-            View Documentation
-          </button>
+          <Link to="/docs">
+            <button className="border border-white text-white font-normal py-2 px-6 rounded-lg hover:bg-white hover:text-blue-600">
+              View Documentation
+            </button>
+          </Link>
         </div>
       </div>
     </section>

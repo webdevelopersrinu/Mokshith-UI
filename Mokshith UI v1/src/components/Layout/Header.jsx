@@ -34,9 +34,22 @@ function Header() {
             >
               Documentation
             </NavLink>
-            <a href="#" className="hover:text-blue-500">
-              Examples
-            </a>
+            <NavLink
+              to={"/contact"}
+              className={({ isActive }) =>
+                isActive ? "text-blue-500 font-bold" : ""
+              }
+            >
+              Contact
+            </NavLink>
+            <NavLink
+              to={"/about"}
+              className={({ isActive }) =>
+                isActive ? "text-blue-500 font-bold" : ""
+              }
+            >
+              About
+            </NavLink>
           </div>
         </div>
 
@@ -46,9 +59,14 @@ function Header() {
           {/* <button>
             <FiMoon className="text-gray-700 dark:text-gray-300 text-2xl" />
           </button> */}
-          <button className="text-white bg-blue-500 text-base font-normal px-4 py-2 rounded-lg hidden md:block">
-            Get Started
-          </button>
+          <Link
+            to={"/components"}
+          >
+            <button className="text-white bg-blue-500 text-base font-normal px-4 py-2 rounded-lg hidden md:block">
+              Get Started
+            </button>
+          </Link>
+
           <button
             className="md:hidden text-2xl"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -60,18 +78,30 @@ function Header() {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden absolute top-16 left-0 w-full bg-white dark:bg-black  p-4 flex flex-col space-y-4 text-gray-700 dark:text-gray-300">
-            <a href="#" className="hover:text-blue-500">
-              Components
-            </a>
-            <a href="#" className="hover:text-blue-500">
+            <Link
+              to={"/docs"}
+              className="hover:text-blue-500"
+            >
               Documentation
-            </a>
-            <a href="#" className="hover:text-blue-500">
-              Examples
-            </a>
-            <a href="#" className="hover:text-blue-500">
-              Pricing
-            </a>
+            </Link>
+            <Link
+              to={"/components"}
+              className="hover:text-blue-500"
+            >
+              Components
+            </Link>
+            <Link
+              to={"/contact"}
+              className="hover:text-blue-500"
+            >
+              Contact
+            </Link>
+            <Link
+              to={"/about"}
+              className="hover:text-blue-500"
+            >
+              About
+            </Link>
           </div>
         )}
       </nav>

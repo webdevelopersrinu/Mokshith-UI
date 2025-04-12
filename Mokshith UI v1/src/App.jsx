@@ -9,6 +9,8 @@ import Documentation from "./pages/Documentation";
 import { Route, Routes } from "react-router";
 import Index from "./components/ComponentsPage";
 import Buttons from "./components/ComponentsPage/components/Buttons/Buttons";
+import Cards from "./components/ComponentsPage/components/Cards/Cards";
+import Inputs from "./components/ComponentsPage/components/Inputs/Inputs";
 
 function App() {
   return (
@@ -23,11 +25,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/components" element={<Index />}>
           <Route index element={<Buttons />} />
+          <Route path="buttons" element={<Buttons />} />
+          <Route path="cards" element={<Cards />} />
+          <Route path="inputs" element={<Inputs />} />
         </Route>
       </Routes>
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Contact /> */}
       <Footer />
     </div>
   );

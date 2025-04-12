@@ -14,7 +14,7 @@ import { Link } from "react-router";
 export default function Footer() {
   return (
     <footer className="bg-gray-50 text-gray-700 py-8 px-6 border-t">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 md:text-left">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 md:text-left">
         {/* Brand Info */}
         <div>
           <div className="flex items-center  md:justify-start space-x-2">
@@ -91,8 +91,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-
-        {/* Legal */}
+        {/* 
         <div>
           <h3 className="font-semibold mb-2">Legal</h3>
           <ul className="space-y-1 text-sm">
@@ -109,7 +108,7 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       {/* Footer Bottom */}
